@@ -4,8 +4,6 @@
 
 ### Installing a C++ compiler (e.g., GCC, Clang)
 
-## Installing a C++ Compiler for macOS
-
 ### GCC (GNU Compiler Collection)
 
 You can install GCC on macOS using package managers like Homebrew or MacPorts.
@@ -51,8 +49,8 @@ Once you've installed GCC or Clang, you can verify the installation by checking 
   clang --version
   ```
 
-```
+### Choosing an Integrated Development Environment (IDE) or text editor (e.g., Visual Studio Code, Code::Blocks, CLion)
 
-You can copy and paste this Markdown into your desired editor or platform.
-- Choosing an Integrated Development Environment (IDE) or text editor (e.g., Visual Studio Code, Code::Blocks, CLion)
-- Configuring the development environment
+![VScode install](./assests/c++Install.png)
+
+### Configuring the development environment
