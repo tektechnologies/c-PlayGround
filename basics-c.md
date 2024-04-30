@@ -157,7 +157,7 @@ In this example:
 - Their values cannot be changed during the program's execution.
 - Their values are outputted using std::cout.
 
-## Operators
+### Operators
 
 In C++, operators are symbols that perform operations on operands. They are used to manipulate data and perform calculations. C++ supports a wide range of operators, which can be categorized into several groups:
 
@@ -174,7 +174,7 @@ In C++, operators are symbols that perform operations on operands. They are used
    - Subtraction assignment `-=`
    - Multiplication assignment `*=`
    - Division assignment `/=`
-   - Modulus assignment `%=` 
+   - Modulus assignment `%=`
    - Bitwise AND assignment `&=`
    - Bitwise OR assignment `|=`
    - Bitwise XOR assignment `^=`
@@ -220,3 +220,5 @@ In C++, operators are symbols that perform operations on operands. They are used
     - Comma `,` (evaluates its operands from left to right and returns the value of the rightmost operand)
 
 These are the primary operators in C++. Each operator serves a specific purpose and is used in different contexts to perform various operations on data.
+
+#### Resources found on openAI
