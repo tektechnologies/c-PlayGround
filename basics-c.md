@@ -158,3 +158,65 @@ In this example:
 - Their values are outputted using std::cout.
 
 ## Operators
+
+In C++, operators are symbols that perform operations on operands. They are used to manipulate data and perform calculations. C++ supports a wide range of operators, which can be categorized into several groups:
+
+1. **Arithmetic Operators:**
+   - Addition `+`
+   - Subtraction `-`
+   - Multiplication `*`
+   - Division `/`
+   - Modulus `%` (remainder of division)
+
+2. **Assignment Operators:**
+   - Assignment `=`
+   - Addition assignment `+=`
+   - Subtraction assignment `-=`
+   - Multiplication assignment `*=`
+   - Division assignment `/=`
+   - Modulus assignment `%=` 
+   - Bitwise AND assignment `&=`
+   - Bitwise OR assignment `|=`
+   - Bitwise XOR assignment `^=`
+   - Bitwise left shift assignment `<<=`
+   - Bitwise right shift assignment `>>=`
+
+3. **Comparison Operators:**
+   - Equal to `==`
+   - Not equal to `!=`
+   - Greater than `>`
+   - Less than `<`
+   - Greater than or equal to `>=`
+   - Less than or equal to `<=`
+
+4. **Logical Operators:**
+   - Logical AND `&&`
+   - Logical OR `||`
+   - Logical NOT `!`
+
+5. **Bitwise Operators:**
+   - Bitwise AND `&`
+   - Bitwise OR `|`
+   - Bitwise XOR `^`
+   - Bitwise NOT `~`
+   - Left shift `<<`
+   - Right shift `>>`
+
+6. **Increment and Decrement Operators:**
+   - Increment `++`
+   - Decrement `--`
+
+7. **Conditional Operator (Ternary Operator):**
+   - Conditional expression `? :`
+
+8. **Member Access Operators:**
+   - Dot `.` (for accessing members of objects or structures)
+   - Arrow `->` (for accessing members through pointers)
+
+9. **Sizeof Operator:**
+   - Sizeof `sizeof`
+
+10. **Comma Operator:**
+    - Comma `,` (evaluates its operands from left to right and returns the value of the rightmost operand)
+
+These are the primary operators in C++. Each operator serves a specific purpose and is used in different contexts to perform various operations on data.
