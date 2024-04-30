@@ -109,4 +109,52 @@ In this example:
 
 - Constants
 
-- Operators
+In C++, constants are identifiers whose values cannot be changed during the execution of the program. They provide a way to define fixed values that remain constant throughout the program's execution. Constants in C++ have the following characteristics:
+
+1. **Value:** Constants have a fixed value that cannot be modified once they are defined.
+
+2. **Data Type:** Like variables, constants also have a data type which determines the type of value they hold (e.g., integer, floating-point, character, etc.).
+
+3. **Name:** Constants are given a name, just like variables, which is used to refer to them in the program.
+
+4. **Scope:** Constants can have either local or global scope, depending on where they are declared.
+
+5. **Initialization:** Constants must be initialized at the time of declaration.
+
+In C++, there are two ways to define constants:
+
+1. **Using `const` keyword:** Constants can be defined using the `const` keyword followed by the data type and the constant name. For example:
+
+```cpp
+   const int MAX_VALUE = 100;
+
+```
+
+- Using #define preprocessor directive: Constants can also be defined using the #define preprocessor directive. For example:
+
+### define PI 3.14159
+
+```cpp
+
+#include <iostream>
+
+int main() {
+    const int MAX_VALUE = 100;
+    const double PI = 3.14159;
+
+    std::cout << "Max Value: " << MAX_VALUE << std::endl;
+    std::cout << "Value of PI: " << PI << std::endl;
+
+    return 0;
+}
+
+```
+
+In this example:
+
+- MAX_VALUE and PI are constants.
+- They are defined with specific data types (int and double respectively).
+- Their values cannot be changed during the program's execution.
+- Their values are outputted using std::cout.
+
+## Operators
