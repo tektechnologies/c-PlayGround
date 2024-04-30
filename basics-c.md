@@ -2,7 +2,7 @@
 
 - Hello World program - code from Hacker Rank
 
-```c++
+```cpp
 #include <iostream>
 #include <cstdio>
 using namespace std;
@@ -15,7 +15,7 @@ int main() {
 
 - Comments
 
-```c++
+```cpp
 
 // This is a single-line comment in C++
 
