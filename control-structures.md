@@ -11,6 +11,7 @@ In C++, decision-making can be implemented using if-else statements and switch s
 The `if-else` statement evaluates a condition and executes a block of code if the condition is true, otherwise, it executes another block of code.
 
 ```cpp
+
 if (condition) {
     // Code block to execute if condition is true
 } else {
@@ -51,8 +52,43 @@ switch (day) {
 
 ```
 
-
 - Loops (for, while, do-while)
+
+## Loops in C++
+
+In C++, loops are used to execute a block of code repeatedly as long as a specified condition is true. There are three main types of loops in C++: `for`, `while`, and `do-while`. Let me explain each one:
+
+## For Loop
+
+The `for` loop is typically used when you know how many times you want to execute a block of code.
+
+```cpp
+for (initialization; condition; update) {
+    // Code to be executed
+}
+
+while (condition) {
+    // Code to be executed
+}
+
+int i = 0;
+while (i < 5) {
+    cout << i << " ";
+    i++;
+}
+
+do {
+    // Code to be executed
+} while (condition);
+
+
+int i = 0;
+do {
+    cout << i << " ";
+    i++;
+} while (i < 5);
+
+```
 
 
 - Break and continue statements
