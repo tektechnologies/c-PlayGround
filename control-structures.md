@@ -90,5 +90,30 @@ do {
 
 ```
 
-
 - Break and continue statements
+
+## Break and Continue Statements in C++
+
+## Break Statement
+
+```cpp
+
+for (int i = 0; i < 10; i++) {
+    if (i == 5) {
+        break; // Exit the loop when i equals 5
+    }
+    cout << i << " ";
+}
+
+for (int i = 0; i < 10; i++) {
+    if (i % 2 == 0) {
+        continue; // Skip even numbers
+    }
+    cout << i << " ";
+}
+
+// In the above example, the continue statement is used to skip even numbers and continue with the next iteration of the loop.
+
+// These statements are commonly used with loops in C++ to alter the flow of control within the loop based on certain conditions.
+
+```
