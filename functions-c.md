@@ -80,7 +80,45 @@ int result = multiply(5, 3); // Calling multiply function and capturing the retu
 
 - In summary, return values in C++ enable functions to compute results and send them back to the calling code for further processing or use.
 
+### Function Overloading in C++
 
+Function overloading in C++ allows you to define multiple functions with the same name but with different parameters. This enables you to use the same function name for different operations based on the types or number of arguments passed to it. Function overloading provides a way to create more readable and expressive code by using intuitive function names for similar operations.
 
+Here's an example to illustrate function overloading:
 
-- Function overloading
+```cpp
+#include <iostream>
+
+// Function to add two integers
+int add(int a, int b) {
+    return a + b;
+}
+
+// Overloaded function to add two doubles
+double add(double a, double b) {
+    return a + b;
+}
+
+int main() {
+    // Calling the add function with integers
+    std::cout << "Sum of integers: " << add(5, 3) << std::endl;
+
+    // Calling the add function with doubles
+    std::cout << "Sum of doubles: " << add(5.5, 3.3) << std::endl;
+
+    return 0;
+}
+
+```
+
+In this example, we have two add functions: one that takes two integers and another that takes two doubles as parameters. These functions have the same name (add) but different parameter types. Depending on the arguments passed during the function call, the compiler selects the appropriate version of the function to execute.
+
+Function overloading is resolved at compile time, and the compiler determines which function to call based on the number and types of arguments provided.
+
+Key points about function overloading:
+
+Functions must have different parameter lists (number, types, or order of parameters) to be overloaded.
+Return types do not play a role in overloading. Two functions can have the same parameter list but different return types and still be considered overloaded.
+Overloaded functions can have different access specifiers (public, private, protected).
+Overloading can be applied to member functions of classes as well as global functions.
+Function overloading is a powerful feature of C++ that allows you to write concise and expressive code by providing multiple ways to accomplish similar tasks.
