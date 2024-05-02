@@ -4,3 +4,7 @@
 - Accessing array elements
 - Multi-dimensional arrays
 - String manipulation
+
+
+
+#### Resources found on openAI

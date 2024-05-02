@@ -50,5 +50,37 @@ In C++, "parameters" and "arguments" are terminologies often used interchangeabl
 
 In summary, parameters are variables declared in the function definition, while arguments are the actual values passed to the function during its invocation. The arguments provided must match the parameters in number, order, and type.
 
-- Return values
+### Return Values in C++
+
+In C++, a return value is the value that a function sends back to the code that called it. It allows functions to compute a result and pass it back to the caller for further use.
+
+When a function is declared to return a value, its declaration includes the data type of the value that it returns. This is specified before the function name in the declaration or definition.
+
+Here's how you declare a function that returns a value:
+
+```cpp
+// Function declaration with return type
+int multiply(int a, int b); // Declares a function named multiply that returns an integer value
+
+
+// Function definition with return type
+int multiply(int a, int b) {
+    return a * b; // Returns the product of a and b
+}
+
+// In this example, the multiply function takes two integers as parameters and returns their product. The return statement is used to send back the computed result to the caller.
+
+// When calling a function that returns a value, you can capture that value using a variable or use it directly in an expression:
+
+int result = multiply(5, 3); // Calling multiply function and capturing the returned value
+
+```
+
+- The value returned by the multiply function (in this case, the product of 5 and 3) is stored in the variable result.
+
+- In summary, return values in C++ enable functions to compute results and send them back to the calling code for further processing or use.
+
+
+
+
 - Function overloading

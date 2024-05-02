@@ -117,3 +117,4 @@ for (int i = 0; i < 10; i++) {
 // These statements are commonly used with loops in C++ to alter the flow of control within the loop based on certain conditions.
 
 ```
+#### Resources found on openAI

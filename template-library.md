@@ -4,3 +4,5 @@
 - Iterators
 - Algorithms
 - Other STL components
+
+#### Resources found on openAI

@@ -56,3 +56,5 @@
 
 - **Apply Testing to Projects:** Practice testing on real-world projects to solidify your understanding.
 - **Code Reviews:** Participate in code reviews and learn how to evaluate the quality of tests.
+
+#### Resources found on openAI

@@ -5,3 +5,5 @@
 - Encapsulation
 - Inheritance
 - Polymorphism
+
+#### Resources found on openAI

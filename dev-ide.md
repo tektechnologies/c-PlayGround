@@ -54,3 +54,6 @@ Once you've installed GCC or Clang, you can verify the installation by checking 
 ![VScode install](./assests/c++Install.png)
 
 ### Configuring the development environment
+
+
+

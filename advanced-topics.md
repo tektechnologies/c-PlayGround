@@ -5,3 +5,7 @@
 - Smart pointers
 - Lambdas and closures
 - Multithreading
+
+
+
+#### Resources found on openAI
