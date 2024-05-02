@@ -6,4 +6,4 @@
 - Inheritance
 - Polymorphism
 
-#### Resources found on openAI
+## Resources found on openAI

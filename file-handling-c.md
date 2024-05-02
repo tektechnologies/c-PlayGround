@@ -5,4 +5,4 @@
 - Reading from and writing to files
 - Error handling
 
-#### Resources found on openAI
+## Resources found on openAI

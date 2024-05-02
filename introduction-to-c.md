@@ -10,7 +10,6 @@ C++ has a rich standard library that includes a wide range of functions and clas
 
 ## History and background
 
-
 The history of C++ dates back to the late 1970s when Bjarne Stroustrup, a Danish computer scientist, began working at Bell Labs (AT&T). At that time, he was involved in a project that required simulation for analyzing the Unix kernel. While working on this project, Stroustrup realized that the available programming languages, particularly C, lacked features necessary for the task at hand.
 
 In 1979, Stroustrup started developing what he initially called "C with Classes." This language was an extension of the C programming language, adding support for classes, inheritance, and other object-oriented programming (OOP) features. Stroustrup's goal was to create a language that combined the efficiency and flexibility of C with the benefits of OOP.

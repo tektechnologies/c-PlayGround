@@ -5,5 +5,4 @@
 - Error handling strategies
 - Performance considerations
 
-
-#### Resources found on openAI
+## Resources found on openAI

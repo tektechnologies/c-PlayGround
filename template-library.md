@@ -5,4 +5,4 @@
 - Algorithms
 - Other STL components
 
-#### Resources found on openAI
+## Resources found on openAI

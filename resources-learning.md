@@ -5,4 +5,4 @@
 - C++ communities and forums
 - Practice platforms and exercises
 
-#### Resources found on openAI
+## Resources found on openAI

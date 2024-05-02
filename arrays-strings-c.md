@@ -5,6 +5,4 @@
 - Multi-dimensional arrays
 - String manipulation
 
-
-
-#### Resources found on openAI
+## Resources found on openAI

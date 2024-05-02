@@ -2,9 +2,9 @@
 
 ## Function Declaration and Definition in C++
 
-In C++, a function declaration and definition are two separate parts of creating a function. 
+In C++, a function declaration and definition are two separate parts of creating a function.
 
-1. **Function Declaration**: This is also known as a function prototype. It tells the compiler about the function name, return type, and parameters it accepts. A function declaration ends with a semicolon. It allows you to use the function before its actual definition in the code. 
+1. **Function Declaration**: This is also known as a function prototype. It tells the compiler about the function name, return type, and parameters it accepts. A function declaration ends with a semicolon. It allows you to use the function before its actual definition in the code.
 
     ```cpp
     // Function declaration

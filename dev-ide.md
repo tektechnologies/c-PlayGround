@@ -12,7 +12,8 @@ You can install GCC on macOS using package managers like Homebrew or MacPorts.
   - Install Homebrew if you haven't already by following the instructions on [brew.sh](https://brew.sh/).
   - Once Homebrew is installed, you can install GCC by running:
 
-    ```
+    ```terminal
+
     brew install gcc
     ```
 
@@ -20,7 +21,8 @@ You can install GCC on macOS using package managers like Homebrew or MacPorts.
   - Install MacPorts from [macports.org](https://www.macports.org/install.php) if you haven't already.
   - After installing MacPorts, you can install GCC by running:
 
-    ```
+    ```terminal 
+    
     sudo port install gcc
     ```
 
@@ -39,13 +41,16 @@ Once you've installed GCC or Clang, you can verify the installation by checking 
 
 - For GCC (if installed via Homebrew):
 
-  ```
+  ```terminal
+
   gcc --version
+
   ```
 
 - For Clang (included with Xcode Command Line Tools):
 
-  ```
+  ```terminal
+
   clang --version
   ```
 
@@ -54,6 +59,3 @@ Once you've installed GCC or Clang, you can verify the installation by checking 
 ![VScode install](./assests/c++Install.png)
 
 ### Configuring the development environment
-
-
-

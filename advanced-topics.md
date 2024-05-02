@@ -6,6 +6,4 @@
 - Lambdas and closures
 - Multithreading
 
-
-
-#### Resources found on openAI
+## Resources found on openAI
