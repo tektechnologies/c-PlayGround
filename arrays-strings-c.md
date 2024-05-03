@@ -44,8 +44,55 @@ int element = arr[index]; // Accesses the element at index 2 (third element)
 // Be cautious to not access elements beyond the array bounds
 // This may lead to undefined behavior
 
+```
 
-- Multi-dimensional arrays
-- String manipulation
+## Multi-dimensional arrays
+
+In C++, you can create multi-dimensional arrays, which are essentially arrays of arrays. Here's how you can declare and initialize multi-dimensional arrays:
+
+```cpp
+// Syntax 1: Static multi-dimensional array
+int matrix1[3][3] = {
+    {1, 2, 3},  // Row 0
+    {4, 5, 6},  // Row 1
+    {7, 8, 9}   // Row 2
+};
+
+// Syntax 2: Dynamic multi-dimensional array (using pointers)
+int **matrix2;
+matrix2 = new int*[3]; // Allocate memory for rows
+for (int i = 0; i < 3; ++i) {
+    matrix2[i] = new int[3]; // Allocate memory for columns
+}
+// Initialize the array
+matrix2[0][0] = 1;
+matrix2[0][1] = 2;
+// and so on...
+
+// Syntax 3: Using std::array (requires C++11 or later)
+#include <array>
+std::array<std::array<int, 3>, 3> matrix3 = {{
+    {1, 2, 3},  // Row 0
+    {4, 5, 6},  // Row 1
+    {7, 8, 9}   // Row 2
+}};
+
+```
+
+- matrix1 is a static multi-dimensional array with dimensions 3x3. The size of the array is known at compile time.
+- matrix2 is a dynamic multi-dimensional array created using pointers. Here, memory is allocated dynamically, allowing for more flexibility in array size.
+- matrix3 is a multi-dimensional array using std::array from the C++ Standard Library. It offers some advantages over raw arrays, such as being able to use the at() member function for bounds-checking.
+
+- When accessing elements of multi-dimensional arrays, you use multiple sets of square brackets. For example:
+
+```cpp
+
+int element = matrix1[1][2]; // Accesses the element at row 1, column 2
+
+```
+
+- Remember to manage memory properly, especially when using dynamic multi-dimensional arrays, to avoid memory leaks.
+
+## String manipulation
 
 ## Resources found on openAI
