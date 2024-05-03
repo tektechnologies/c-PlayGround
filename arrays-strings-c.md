@@ -95,4 +95,49 @@ int element = matrix1[1][2]; // Accesses the element at row 1, column 2
 
 ## String manipulation
 
+In C++, string manipulation can be achieved using the standard library's `string` class, which provides a rich set of functions for working with strings. Here's an overview of common string manipulation operations:
+
+1. **String Initialization and Assignment**:
+
+   ```cpp
+
+   #include <string>
+   std::string str1 = "Hello";          // Initializing a string
+   std::string str2 = str1;             // Copying a string
+   std::string str3 = "World";          // Initializing another string
+
+<!-- Concatenation: -->
+
+std::string result = str1 + " " + str3;   // Concatenating strings
+
+<!-- String Length: -->
+int length = str1.length();           // Getting length of string
+
+<!-- Accessing Characters: -->
+char firstChar = str1[0];             // Accessing first character
+char lastChar = str1.back();           // Accessing last character
+
+<!-- Substring Extraction: -->
+std::string substr = str1.substr(1, 3);  // Extracting substring from index 1 to 3
+
+<!-- Searching: -->
+size_t found = str1.find("lo");       // Searching for a substring
+if (found != std::string::npos) {
+    // Substring found
+}
+
+<!-- Replacing: -->
+str1.replace(2, 2, "p");              // Replacing characters from index 2 with "p"
+
+<!-- String Comparison: -->
+if (str1 == str3) {
+    // Strings are equal
+}
+
+<!-- Conversion: -->
+int number = 123;
+std::string strNumber = std::to_string(number);  // Converting int to string
+
+These are just some of the basic string manipulation operations available in C++. The std::string class offers many more methods for various string-related tasks. Always remember to include the <string> header when working with strings in C++.
+
 ## Resources found on openAI
